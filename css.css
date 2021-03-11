@@ -1,6 +1,5 @@
 body {
-    background: linear-gradient(45deg, rgba(225, 46, 123, 0.735), rgba(9, 27, 222, 0.392));
-    height: 100vh;
+    background: lightblue;
 }
 
 .container {
