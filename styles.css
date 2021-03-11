@@ -1,0 +1,66 @@
+body{
+    background-color:white;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3)
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3)
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url(images/Logo2.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.logo {
+    float: left;
+    height: 100px;
+    width: 150px;
+    margin: auto;
+}
+.h1{
+    margin-left:10%;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+
+}
+.logo-container{
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url(images/Logo2.jpg);
+    background-size: cover;
+    height: 100px;
+
+}
+.slogan{
+    color: gold;
+    text-align: center;
+    font-style: italic;
+}
