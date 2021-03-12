@@ -1,0 +1,73 @@
+body{
+background-color: azure;
+
+}
+
+.logo-container {
+    margin: 0;
+}
+
+.logo {
+    background-color: aqua;
+    left: 1%;
+    width: 8%;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.logo-text {
+    top: -1%;
+    left: 10%;
+    position: absolute;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 0.5em;
+    color: black;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    /* border-bottom: 1px solid rgba(255, 255, 255, .3) */
+}
+
+.main-nav li {
+    padding: 0 4%;
+}
+
+.nav a:hover {
+    color: white;
+    background-color: rgb(56, 52, 140);
+}
+
+.main-header {
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+.head-container{
+    width: 100%;
+   
+    background-image: url(images/body.jpg);
+}
+.Mission-container{
+    border: 2px solid black;
+    width: 50%;
+    height: 350px;
+    background-image: url(images/body2.jpg);
+    background-size: contain;
+    font-weight: bold;
+    color: goldenrod;
+    opacity: .8;
+}
+h4{
+    text-align: left;
+
+}
