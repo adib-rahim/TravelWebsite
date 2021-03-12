@@ -101,7 +101,11 @@
                 }
                 
                 .slide p {
-                    margin-top: 1%;
+                    text-align: center;
+                    margin-top: 20%;
+                    background-color: slategrey;
+                    color: white;
+                    font-size: 4vw;
                 }
                 
                 .p1 {
@@ -109,7 +113,6 @@
                     background-size: cover;
                     background-repeat: no-repeat;
                     background-position: center;
-                    color: aliceblue;
                 }
                 
                 .p2 {
@@ -117,13 +120,13 @@
                     background-size: cover;
                     background-repeat: no-repeat;
                     background-position: center;
-                    animation-delay: 2s;
                 }
                 
                 .p3 {
-                    background-color: black;
-                    color: white;
-                    animation-name: move;
+                    background-image: url("Images/h2.jpg");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
                 }
                 
                 .p4 {
@@ -138,38 +141,33 @@
                     background-size: cover;
                     background-repeat: no-repeat;
                     background-position: center;
-                    color: aliceblue;
                 }
                 
                 @keyframes move {
                     0% {
                         margin-left: 0%;
+                        animation-delay: 10s;
+                        animation-duration: 50s;
                     }
-                    20% {
+                    8.33%,
+                    25% {
                         margin-left: -100%;
+                        animation-delay: 10s;
                     }
-                    40% {
+                    33.33%,
+                    50% {
                         margin-left: -200%;
                     }
-                    60% {
+                    58.33%,
+                    75% {
                         margin-left: -300%;
                     }
-                    80% {
+                    83.33%,
+                    100% {
                         margin-left: -400%;
                     }
-                    100% {
-                        margin-left: -500%;
-                    }
-                    /* 78% {
-        margin-left: -100%;
-    }
-    91% {
-        margin-left: -0%;
-    }
-    100% {
-        margin-left: 0%;
-    } */
                 }
+                /* -------------------- i am not using this in the index --------- */
                 /* 
 .band-name {
     text-align: center;
