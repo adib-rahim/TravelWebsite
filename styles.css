@@ -87,7 +87,7 @@ body {
 .slidegroup {
     width: 500%;
     height: 100%;
-    animation: move 0s infinite forwards;
+    animation: move 20s infinite forwards;
 }
 
 .slide {
@@ -111,10 +111,11 @@ body {
 }
 
 .slide p {
+    margin: auto;
     color: white;
-    margin: auto auto auto 10%;
-    padding-top: 15%;
     font-size: 4vw;
+    padding-top: 10%;
+    padding-left: 8%;
 }
 
 .img1 {
