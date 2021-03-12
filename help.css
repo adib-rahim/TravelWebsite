@@ -9,7 +9,7 @@
 body{
   background: url('Images/help.jpg') no-repeat top center;
   background-size: cover;
-  height: 100vh;
+  height: 40vh;
 }
 
 .wrapper{
@@ -19,14 +19,14 @@ body{
   transform: translate(-50%, -50%);
   width: 100%;
   max-width: 550px;
-  background: rgba(0,0,0,0.8);
+  background: whitesmoke;
   padding: 30px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
 .wrapper .title h1{
-  color: #c5ecfd;
+  color:lightskyblue;
   text-align: center;
   margin-bottom: 25px;
 }
@@ -51,9 +51,9 @@ body{
   margin: 10px 0;
   background: transparent;
   border: 0px;
-  border-bottom: 2px solid #c5ecfd;
+  border-bottom: 2px solid lightskyblue;
   padding: 10px;
-  color: #c5ecfd;
+  color: lightskyblue;
   width: 100%;
 }
 
