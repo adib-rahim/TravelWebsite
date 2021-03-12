@@ -15,12 +15,17 @@ body {
 .contact-form {
     max-width:550px;
     margin: 0 auto;
-    background: rgba(0,0,0,0.8);
+    background: white;
     padding: 30px;
     border-radius: 5px;
     display: flex;
     box-shadow: 0 0 10px;
 
+}
+.input-fields{
+    display:flex;
+    flex-direction: column;
+    margin-right: 4%;
 }
 
 
