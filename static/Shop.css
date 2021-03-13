@@ -1,6 +1,5 @@
-body{
-background-color: azure;
-
+body {
+    background-color: azure;
 }
 
 .logo-container {
@@ -52,41 +51,45 @@ background-color: azure;
     padding-bottom: 1%;
     padding-top: 1%;
 }
-.head-container{
+
+.head-container {
     width: 100%;
-   
-    background-image: url(images/body.jpg);
+    background-image: url(/images/body.jpg);
 }
-.Mission-container{
+
+.Mission-container {
     border: 2px solid black;
     width: 50%;
     height: 350px;
-    background-image: url(images/body2.jpg);
+    background-image: url(/images/body2.jpg);
     background-size: contain;
     font-weight: bold;
     color: white;
     opacity: .8;
 }
-h4{
-    text-align: left;
 
+h4 {
+    text-align: left;
 }
-.trip{
+
+.trip {
     border: 3px solid black;
     height: 200px;
     width: 450px;
-    background-image: url(images/h2.jpg);
+    background-image: url(/images/h2.jpg);
     background-size: cover;
     margin-left: 35%;
 }
-.departure{
-    margin-bottom: 40px;
-    
-}
-.return{
+
+.departure {
     margin-bottom: 40px;
 }
-.book{
+
+.return {
+    margin-bottom: 40px;
+}
+
+.book {
     color: white;
     background-color: red;
     padding: 10px 20px;
