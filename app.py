@@ -40,7 +40,7 @@ def index():
 
 @app.route('/images/<path:path>')
 def images(path):
-    return send_from_directory('images', path)
+    return render_template('images', path)
 
 
 if __name__ == '__main__':
