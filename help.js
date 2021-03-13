@@ -9,7 +9,7 @@ function validate(){
     error_message.style.padding = "10px";
     
     var text;
-    if(name.length < 5){
+    if(name.length < 10){
       text = "Please Enter valid Name";
       error_message.innerHTML = text;
       return false;
@@ -24,13 +24,13 @@ function validate(){
       error_message.innerHTML = text;
       return false;
     }
-    if(email.indexOf("@") == -1 || email.length < 6){
+    if(email.indexOf("@") == -1 || email.length < 10){
       text = "Please Enter valid Email";
       error_message.innerHTML = text;
       return false;
     }
-    if(message.length <= 140){
-      text = "Please Enter More Than 140 Characters";
+    if(message.length <= 100){
+      text = "Please Enter More Than 100 Characters";
       error_message.innerHTML = text;
       return false;
     }
