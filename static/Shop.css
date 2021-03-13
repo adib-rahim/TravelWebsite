@@ -115,6 +115,7 @@ h4 {
   overflow:hidden;
   background-color: rgba(0,0,0,0.6);
   align-self: auto;
+  
 }
 .modal-content{
     background-image: url(/Images/view3.jpg);
@@ -122,6 +123,7 @@ h4 {
     height: 60%;
     background-size: contain;
     margin: auto auto;
+    border:3px solid black;
 
 }
 .book2 {
