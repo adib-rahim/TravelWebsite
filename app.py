@@ -28,7 +28,7 @@ def help():
 @app.route("/index", methods=['POST'])
 def index():
     if request.method == 'POST':
-        email = request.form["email_name"]
+        email = request.form["email-name"]
         # height = request.form["height_name"]
         # weight = request.form["weight_name"]
         # print(request.form)
@@ -36,6 +36,11 @@ def index():
         # db.session.add(data)
         # db.session.commit()
         return render_template("index.html")
+
+
+@app.route('/images/<path:path>')
+def images(path):
+    return flask.send_from_directory('images', path)
 
 
 if __name__ == '__main__':
