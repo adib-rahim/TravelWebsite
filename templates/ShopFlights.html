@@ -2,17 +2,17 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ShopFlights</title>
-    <link rel="stylesheet" href="/static/Shop.css">
+    <link rel="stylesheet" href="/static/Shop.css" />
 </head>
 
 <body>
     <header class="main-header">
         <div class="logo-container">
-            <img class="logo" src="/images/Logo.jpg" alt="logo" />
+            <img class="logo" src="/Images/Logo.jpg" alt="logo" />
             <h1 class="logo-text">
                 Star<br /> Airlines
             </h1>
@@ -21,104 +21,141 @@
             <ul>
                 <li><a href="/templates/index.html">HOME</a></li>
                 <li><a href="/templates/ShopFlights.html">Shop Flights</a></li>
-                <li><a href="">Our Aircrafts</a></li>
                 <li><a href="/templates/help.html">Need Help?</a></li>
             </ul>
-            <div class="head-container">
-                <H1 style="color: white;">OUR FLIGHTS</H1>
-            </div>
-            <hr>
-            <H3 style="color:black; font-size: 30px; font-style: oblique;"> "Serving a combination of class and excellence. Come feel like a star at Star Airlines"</H3>
-            <hr>
-            <H4>OUR MISSION</H4>
-            <div class="Mission-container">
-                <p>1. Improving lives. Star Airlines demonstrates that all its services are geared towards helping people meet their business and travel needs by enabling them to reach their destinations on time.</p>
-                <br>
-                <p>2. Exceeding expectations. Other than connecting people, Star Airlines extends its services to other programs that impact on the wellness of communities. The corporate social responsibility branch of this organization actively runs empowerment
-                    activities in communities.</p>
-            </div>
-            <hr>
-             <div class="trip-container"> 
-                <div class="trip">
-                    <div class="departure">
+        </nav>
+    </header>
+    <div class="head-container">
+        <h1 style="color: white">OUR FLIGHTS</h1>
+    </div>
+    <hr />
+    <h3 style="
+        color: black;
+        font-size: 30px;
+        font-style: oblique;
+        text-align: center;
+      ">
+        "Serving a combination of class and excellence. Come feel like a star at Star Airlines"
+    </h3>
+    <hr />
+    <h4>OUR MISSION</h4>
+    <div class="Mission-container">
+        <p>
+            1. Improving lives. Star Airlines demonstrates that all its services are geared towards helping people meet their business and travel needs by enabling them to reach their destinations on time.
+        </p>
+        <br />
+        <p>
+            2. Exceeding expectations. Other than connecting people, Star Airlines extends its services to other programs that impact on the wellness of communities. The corporate social responsibility branch of this organization actively runs empowerment activities
+            in communities.
+        </p>
+    </div>
+    <hr />
+    <div class="trip-container">
+        <div class="trip">
+            <div class="departure">
                 <label for="departing">Departing</label>
-                <input type="date" id="departing"
-                 name="trip-departure"
-                      value="2021-03-12"
-                      min="2021-01-01" max="2021-12-31">
-                    </div>
-                    <div class="return">
-                      <label for="returning">Returning</label>
-                <input type="date" id="returning"
-                 name="trip-returning"
-                      value="2021-03-12"
-                      min="2021-01-01" max="2021-12-31">
-                    </div>
-                    <button id="book" class="book" type="submit">Book</button>
-                </div>
-                <div class="modal" id="modal1">
-                  <div class="modal-content">
-                    <a href="#"class="close1">X</a>
-                    <H1>Choose Your Getaway!</H1>
-                    <form action="">
-                        <label for="destination">Select a Destination</label>
-                        <select name="destinations" id="destinations" onchange="getselectedValue()">
-                            <option>Choose a Location</option>
-                            <option value="Price of this trip package is: $1250 this includes Hotel and Amenities ">Cancun</option>
-                            <option value="Price of this trip package is: $2550 this includes Hotel and Amenities">London</option>
-                            <option value="Price of this trip package is: $1550 this includes Hotel and Amenities">New York</option>
-                            <option value="Price of this trip package is: $1550 this includes Hotel and Amenities">Greece</option>
-                            <option value="Price of this trip package is: $2375 this includes Hotel and Amenities">Paris</option>
-                            <option value="Price of this trip package is: $1750 this includes Hotel and Amenities">Iceland</option>
-                        </select>
-                       <div id="divprice" style="font-weight: bold; font-family: 'Times New Roman', Times, serif;"></div>
-                       <input class="book2" type="submit"value="Book" >
-                    </form>
-                  </div>
-                </div>
-                </div> 
-               
-                <footer class="container-footer">
-                    <div class="sub-footer">
-                        <div class="footer">
-                            <h4>HELP</h4>
-                            <p>
-                                Costumer Service <br /> Live Chat
-                            </p>
-                        </div>
-                        <div class="footer">
-                            <h4>ACCOUNT</h4>
-                            <p>Your Account<br />Order Status</p>
-                        </div>
-                        <div class="footer">
-                            <h4>SUBSCRIBE</h4>
-                            <p>Emails <br />Store Offer and Events</p>
-                        </div>
-                        <div class="footer">
-                            <h4>THE MEMBER CARD</h4>
-                            <p>Learn More <br />Play my Bill</p>
-                        </div>
-                    </div>
-                    <hr />
-                    <div class="social-media">
-                        <h4>Star Airline</h4>
-                        <img src="/images/icons/facebook.png" alt="" />
-                        <img src="/images/icons/instagram.png" alt="" />
-                        <img src="/images/icons/youtube.png" alt="" />
-                        <img src="/images/icons/pin.png" alt="" />
-                        <img src="/images/icons/twitter.png" alt="" />
-                    </div>
-                    <div class="footer-rights">
-                        <p>
-                            &copy; 2021 Star Airline travel and flys by
-                            <span>Group </span>All Rights Reserved
-                        </p>
-                        <p>
-                            NOTE: This webpage is a temple to create a sales website. All information and materials used are for ONLY educational porposes
-                        </p>
-                    </div>
-                </footer>
-            <script src="/Shop.js"></script>
+                <input type="date" id="departing" name="trip-departure" value="2021-03-12" min="2021-01-01" max="2021-12-31" />
+            </div>
+            <div class="return">
+                <label for="returning">Returning</label>
+                <input type="date" id="returning" name="trip-returning" value="2021-03-12" min="2021-01-01" max="2021-12-31" />
+            </div>
+            <button id="book" class="book" type="submit">Book</button>
+        </div>
+        <div class="modal" id="modal1">
+            <div class="modal-content">
+                <a href="#" class="close1">X</a>
+                <h1>Choose Your Getaway!</h1>
+                <form action="">
+                    <label for="destination">Select a Destination</label>
+                    <select name="destinations" id="destinations" onchange="getselectedValue()">
+              <option>Choose a Location</option>
+              <option
+                value="Price of this trip package is: $1250 this includes Hotel and Amenities "
+              >
+                Cancun
+              </option>
+              <option
+                value="Price of this trip package is: $2550 this includes Hotel and Amenities"
+              >
+                London
+              </option>
+              <option
+                value="Price of this trip package is: $1550 this includes Hotel and Amenities"
+              >
+                New York
+              </option>
+              <option
+                value="Price of this trip package is: $1550 this includes Hotel and Amenities"
+              >
+                Greece
+              </option>
+              <option
+                value="Price of this trip package is: $2375 this includes Hotel and Amenities"
+              >
+                Paris
+              </option>
+              <option
+                value="Price of this trip package is: $1750 this includes Hotel and Amenities"
+              >
+                Iceland
+              </option>
+            </select>
+                    <div id="divprice" style="
+                font-weight: bold;
+                font-family: 'Times New Roman', Times, serif;
+              "></div>
+                    <input class="book2" type="submit" value="Book" />
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-footer">
+        <div class="sub-footer">
+            <div class="footer">
+                <h4>HELP</h4>
+                <p>
+                    Costumer Service <br /> Live Chat
+                </p>
+            </div>
+            <div class="footer">
+                <h4>ACCOUNT</h4>
+                <p>Your Account<br />Order Status</p>
+            </div>
+            <div class="footer">
+                <h4>SUBSCRIBE</h4>
+                <p>Emails <br />Store Offer and Events</p>
+            </div>
+            <div class="footer">
+                <h4>THE MEMBER CARD</h4>
+                <p>Learn More <br />Play my Bill</p>
+            </div>
+        </div>
+        <hr />
+        <div class="social-media">
+            <h4>Star Airline</h4>
+            <a href="https://www.facebook.com">
+                <img src="/Images/facebook.png" alt="facebook" /></a>
+            <a href="https://www.instagram.com">
+                <img src="/Images/instagram.png" alt="instagram" /></a>
+            <a href="https://www.youtube.com">
+                <img src="/Images/youtube.png" alt="youtube" /></a>
+            <a href="https://www.pinterest.com"><img src="/Images/pin.png" alt="pin" /></a>
+            <a href="https://twitter.com">
+                <img src="/Images/twitter.png" alt="Twiter" /></a>
+        </div>
+        <div class="footer-rights">
+            <p>
+                &copy; 2021 Star Airline travel and flys by
+                <span>Group </span>All Rights Reserved
+            </p>
+            <p>
+                NOTE: This webpage is a temple to create a sales website. All information and materials used are for ONLY educational porpuese
+            </p>
+        </div>
+    </footer>
+    <script src="/Shop.js"></script>
 </body>
 
 </html>

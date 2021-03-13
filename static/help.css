@@ -1,20 +1,73 @@
-* {
+html,
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    font-family: 'Arial', sans-serif ;
+    min-height: 100%;
 }
 
-body {
+.logo-container {
+    margin: 0;
+}
+
+.logo {
+    background-color: aqua;
+    left: 1%;
+    width: 8%;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.logo-text {
+    top: -1%;
+    left: 10%;
+    position: absolute;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 0.5em;
+    color: black;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    /* border-bottom: 1px solid rgba(255, 255, 255, .3) */
+}
+
+.main-nav li {
+    padding: 0 4%;
+}
+
+.nav a:hover {
+    color: white;
+    background-color: rgb(56, 52, 140);
+}
+
+.main-header {
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
     background: url('/Images/sky.jpg') no-repeat top center;
     background-size: cover;
-    height: 100vh;
 }
+
+
+/* ---------------- help body--------------- */
 
 .wrapper {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
