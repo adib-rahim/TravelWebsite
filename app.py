@@ -1,4 +1,5 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, send_from_directory
+import flask
 # from flask_sqlalchemy import SQLAlchemy
 
 
@@ -38,9 +39,9 @@ def index():
         return render_template("index.html")
 
 
-@app.route('/images/<path:path>')
+@app.route('/Images/<path:path>')
 def images(path):
-    return render_template('images', path)
+    return send_from_directory('Images', path)
 
 
 if __name__ == '__main__':
