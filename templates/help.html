@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <form class="wrapper" action="{{url_for('index')}}" method="POST">
+    <!-- <form class="wrapper" action="{{url_for('index')}}" method="POST">
         <div class="contact-form">
             <div id="error_message"></div>
             <div class="input-fields">
@@ -25,7 +25,24 @@
                 <input class="btn" type="submit" id="submit"> </input>
             </div>
         </div>
-    </form>
+    </form> -->
+
+    <div class="wrapper">
+        <div class="contact-form">
+            <div id="error_message"></div>
+            <form class="input-fields" action="{{url_for('index')}}" method="POST">
+                <input type="text" class="input" id="name" placeholder="Name" />
+                <input type="email" class="input" id="email" placeholder="Email Adress" />
+                <input type="text" class="input" id="phone" placeholder="Phone Number" />
+                <input type="text" class="input" id="subject" placeholder="Subject" />
+                <input class="btn" type="submit" id="submit"> </input>
+            </form>
+            <div class="msg">
+                <textarea placeholder="Message" id="message"></textarea>
+
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
