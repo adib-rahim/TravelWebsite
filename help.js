@@ -4,8 +4,6 @@ function validate(){
     var phone = document.getElementById("phone").value;
     var email = document.getElementById("email").value;
     var message = document.getElementById("message").value;
-    var error_message = document.getElementById("error_message");
-    
     var text;
     if(name.length < 10){
       alert ("Please enter a valid Full Name");
