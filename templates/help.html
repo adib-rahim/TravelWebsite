@@ -16,7 +16,7 @@
             <div id="error_message"></div>
             <div class="input-fields">
                 <input type="text" class="input" id="name" placeholder="Name" />
-                <input type="email" class="input" id="email" placeholder="Email Adress" />
+                <input type="email" class="input" id="email" name="email-name" placeholder="Email Adress" />
                 <input type="text" class="input" id="phone" placeholder="Phone Number" />
                 <input type="text" class="input" id="subject" placeholder="Subject" />
             </div>
@@ -31,10 +31,10 @@
         <div class="contact-form">
             <div id="error_message"></div>
             <form class="input-fields" action="{{url_for('index')}}" method="POST">
-                <input type="text" class="input" name="name" id="name" placeholder="Name" />
-                <input type="email" class="input" name="email-name" id="email" placeholder="Email Adress" />
-                <input type="text" class="input" name="phone" id="phone" placeholder="Phone Number" />
-                <input type="text" class="input" name="subject" id="subject" placeholder="Subject" />
+                <input type="text" class="input" name="name" id="name" placeholder="Name" required/>
+                <input type="email" class="input" name="email-name" id="email" placeholder="Email Adress" required/>
+                <input type="tel" class="input" name="phone" id="phone" placeholder="Phone Number" required/>
+                <input type="text" class="input" name="subject" id="subject" placeholder="Subject" required/>
                 <input class="btn" type="submit" name="submit" id="submit"> </input>
             </form>
             <div class="msg">
