@@ -100,7 +100,7 @@ h4 {
 }
 .trip-container{
     background-image: url(/Images/views2.jpg);
-    height: 400px;
+    height: 450px;
     /* background-position: center; */
     background-size: contain;
 }
@@ -155,7 +155,8 @@ h4 {
 .container-footer {
     background-color: rgba(13, 7, 55, 0.94);
     width: 100%;
-    margin-top: 5%;
+    margin-top: .2%; 
+    
 }
 
 .container-footer hr {
