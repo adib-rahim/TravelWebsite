@@ -58,20 +58,22 @@
                 </div>
                 <div class="modal" id="modal1">
                   <div class="modal-content">
-                    <a href="#"class="clos1">X</a>
-                    <H4>Choose Your Getaway!</H4>
+                    <a href="#"class="close1">X</a>
+                    <H2>Choose Your Getaway!</H2>
                     <form action="">
                         <label for="destination">Select a Destination</label>
-                        <select name="destinations" id="destinations">
-                            <option value="550">Cancun</option>
-                            <option value="550">Cancun</option>
-                            <option value="550">Cancun</option>
-                            <option value="550">Cancun</option>
-                            <option value="550">Cancun</option>
-                            <option value="550">Cancun</option>
+                        <select name="destinations" id="destinations" onchange="getselectedValue()">
+                            <option>Choose a Location</option>
+                            <option value="1250">Cancun</option>
+                            <option value="2550">London</option>
+                            <option value="1550">New York</option>
+                            <option value="1550">Greece</option>
+                            <option value="2375">Paris</option>
+                            <option value="1750">Iceland</option>
                         </select>
+                       <div id="divprice"></div>
+                       <input class="book2" type="submit"value="Book" >
                     </form>
-
                   </div>
                 </div>
                 </div> 
@@ -90,7 +92,8 @@
                     <a class="dropdown-item" href="#">After divider action</a>
                 </div>
             </div>
-            </div> -->
+            </div> 
+            <script src="/Shop.js"></script>
 </body>
 
 </html>
