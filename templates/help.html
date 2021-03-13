@@ -31,14 +31,14 @@
         <div class="contact-form">
             <div id="error_message"></div>
             <form class="input-fields" action="{{url_for('index')}}" method="POST">
-                <input type="text" class="input" id="name" placeholder="Name" />
-                <input type="email" class="input" id="email" placeholder="Email Adress" />
-                <input type="text" class="input" id="phone" placeholder="Phone Number" />
-                <input type="text" class="input" id="subject" placeholder="Subject" />
-                <input class="btn" type="submit" id="submit"> </input>
+                <input type="text" class="input" name="name" id="name" placeholder="Name" />
+                <input type="email" class="input" name="email-name" id="email" placeholder="Email Adress" />
+                <input type="text" class="input" name="phone" id="phone" placeholder="Phone Number" />
+                <input type="text" class="input" name="subject" id="subject" placeholder="Subject" />
+                <input class="btn" type="submit" name="submit" id="submit"> </input>
             </form>
             <div class="msg">
-                <textarea placeholder="Message" id="message"></textarea>
+                <textarea placeholder="Message" name="message" id="message"></textarea>
 
             </div>
         </div>
