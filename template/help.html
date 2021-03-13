@@ -7,21 +7,22 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="/static/help.css" />
-    <script src="main.js"></script>
+    <script src="/help.js"></script>
 </head>
 
 <body>
     <form class="wrapper" action="{{url_for('thankyou')}}" method="POST">
         <div class="contact-form">
+            <div id="error_message"></div>
             <div class="input-fields">
-                <input type="text" class="input" name="name" placeholder="Name" />
-                <input type="email" class="input" name="email-name" placeholder="Email Adress" />
-                <input type="text" class="input" name="phone" placeholder="Phone Number" />
-                <input type="text" class="input" name="subject" placeholder="Subject" />
+                <input type="text" class="input" id="name" placeholder="Name" />
+                <input type="email" class="input" id="email" placeholder="Email Adress" />
+                <input type="text" class="input" id="phone" placeholder="Phone Number" />
+                <input type="text" class="input" id="subject" placeholder="Subject" />
             </div>
             <div class="msg">
-                <textarea placeholder="Message" name="text-area"></textarea>
-                <input class="btn" type="submit" name="submit">
+                <textarea placeholder="Message" id="message"></textarea>
+                <input class="btn" type="submit" id="submit"> </input>
             </div>
         </div>
     </form>
