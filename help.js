@@ -6,7 +6,8 @@ function validate(){
     var message = document.getElementById("message").value;
     var error_message = document.getElementById("error_message");
     
-    error_message.style.padding = "10px";
+    error_message.style.padding = "10px";}
+    
     
     var text;
     if(name.length < 10){
@@ -34,7 +35,16 @@ function validate(){
       error_message.innerHTML = text;
       return false;
     }
+
+    if(validationfails){
+
+      return false;
+    }
+    else{
+
+    document.form.submit();
     alert("Form Submitted Successfully!");
     return true;
+    }
   }
 
