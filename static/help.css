@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     outline: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Papyrus', fantasy;
 }
 
 body {
@@ -84,12 +84,3 @@ body {
         width: 100%;
     }
 }
-
-#error_message{
-    margin-bottom: 20px;
-    background: #fe8b8e;
-    padding: 0px;
-    text-align: center;
-    font-size: 14px;
-    transition: all 0.5s ease;
-  }
