@@ -1,3 +1,10 @@
+.background {
+    width: 100%;
+    height: 100vh;
+    background: url('/Images/sky.jpg') no-repeat top center;
+    background-size: cover;
+}
+
 html,
 body {
     margin: 0;
@@ -55,13 +62,6 @@ body {
 .main-header {
     padding-bottom: 1%;
     padding-top: 1%;
-}
-
-.background {
-    width: 100%;
-    height: 100vh;
-    background: url('/Images/sky.jpg') no-repeat top center;
-    background-size: cover;
 }
 
 
