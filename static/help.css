@@ -68,6 +68,7 @@ body {
     border-radius: 5px;
     color: #fff;
     cursor: pointer;
+    outline: none;
     text-transform: uppercase;
 }
 
