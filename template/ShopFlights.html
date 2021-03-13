@@ -38,17 +38,25 @@
                     activities in communities.</p>
             </div>
             <hr>
-            <div class="trip">
-                <div class="departure">
-                    <label for="departing">Departing</label>
-                    <input type="date" id="departing" name="trip-departure" value="2021-03-12" min="2021-01-01" max="2021-12-31">
+            <div class="trip-container">
+                <div class="trip">
+                    <div class="departure">
+                <label for="departing">Departing</label>
+                <input type="date" id="departing"
+                 name="trip-departure"
+                      value="2021-03-12"
+                      min="2021-01-01" max="2021-12-31">
+                    </div>
+                    <div class="return">
+                      <label for="returning">Returning</label>
+                <input type="date" id="returning"
+                 name="trip-returning"
+                      value="2021-03-12"
+                      min="2021-01-01" max="2021-12-31">
+                    </div>
+                    <button class="book" type="submit">Book</button>
                 </div>
-                <div class="return">
-                    <label for="returning">Returning</label>
-                    <input type="date" id="returning" name="trip-returning" value="2021-03-12" min="2021-01-01" max="2021-12-31">
                 </div>
-                <button class="book" type="submit">Book</button>
-            </div>
             <div class="btn-group">
                 <button class="btn btn-secondary dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                            
