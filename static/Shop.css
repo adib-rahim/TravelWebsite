@@ -1,210 +1,211 @@
                 html,
-            body {
-                margin: 0;
-                padding: 0;
-                min-height: 100%;
-                background-color: azure;
-            }
-            
-            .logo-container {
-                margin: 0;
-            }
-            
-            .logo {
-                background-color: aqua;
-                left: 1%;
-                width: 8%;
-                border-radius: 50%;
-                position: absolute;
-            }
-            
-            .logo-text {
-                top: -1%;
-                left: 10%;
-                position: absolute;
-            }
-            
-            .nav li {
-                display: inline;
-            }
-            
-            .nav a {
-                display: inline-block;
-                padding: 0.5em;
-                color: black;
-                text-decoration: none;
-            }
-            
-            .main-nav {
-                text-align: center;
-                font-size: 1.1em;
-                font-weight: lighter;
-                /* border-bottom: 1px solid rgba(255, 255, 255, .3) */
-            }
-            
-            .main-nav li {
-                padding: 0 4%;
-            }
-            
-            .nav a:hover {
-                color: white;
-                background-color: rgb(56, 52, 140);
-            }
-            
-            .main-header {
-                padding-bottom: 1%;
-                padding-top: 1%;
-            }
-            /* -----body ---------- */
-            
-            .head-container {
-                text-align: center;
-                width: 100%;
-                background-image: url(/images/body.jpg);
-            }
-            
-            .Mission-container {
-                text-align: center;
-                border: 2px solid black;
-                width: 50%;
-                height: 350px;
-                background-image: url(/images/body2.jpg);
-                background-size: contain;
-                font-weight: bold;
-                color: white;
-                opacity: .8;
-            }
-            
-            h4 {
-                text-align: left;
-            }
-            
-            .trip {
-                border: 3px solid black;
-                height: 200px;
-                width: 450px;
-                background-image: url(/images/h2.jpg);
-                background-size: cover;
-                margin-left: 35%;
-            }
-            
-            .departure {
-                margin-bottom: 40px;
-            }
-            
-            .return {
-                margin-bottom: 40px;
-            }
-            
-            .book {
-                color: white;
-                background-color: red;
-                padding: 10px 20px;
-                text-align: center;
-                font-size: 10px;
-                cursor: pointer;
-            }
-            
-            .trip-container {
-                background-image: url(/Images/views2.jpg);
-                height: 450px;
-                /* background-position: center; */
-                background-size: contain;
-            }
-            
-            .modal {
-                display: none;
-                position: fixed;
-                z-index: 1;
-                left: 0;
-                top: 0;
-                width: 100%;
-                height: 100%;
-                overflow: hidden;
-                background-color: rgba(0, 0, 0, 0.6);
-                align-self: auto;
-            }
-            
-            .modal-content {
-                background-image: url(/Images/view3.jpg);
-                width: 80%;
-                height: 60%;
-                background-size: contain;
-                margin: auto auto;
-                border: 3px solid black;
-            }
-            
-            .book2 {
-                color: white;
-                background-color: red;
-                padding: 10px 20px;
-                text-align: center;
-                font-size: 10px;
-                cursor: pointer;
-            }
-            
-            .close1 {
-                float: right;
-                text-decoration: none;
-                background-color: white;
-                padding: 2px;
-                border: 2px solid gray;
-            }
-            /* ---------footer-------------- */
-            
-            .container-footer {
-                background-color: rgba(13, 7, 55, 0.94);
-                width: 100%;
-                margin-top: 5%;
-            }
-            
-            .container-footer hr {
-                height: 3px;
-                background-color: white;
-                border: none;
-                margin: 2% 5% auto 5%;
-            }
-            
-            .sub-footer {
-                width: 100%;
-                height: 30%;
-                display: inline-flex;
-                padding-top: 2%;
-                padding-bottom: 2%;
-            }
-            
-            .footer {
-                font-family: sans-serif;
-                font-size: 1vW;
-                color: white;
-                text-align: center;
-                width: 15%;
-                margin: auto auto auto 5%;
-            }
-            
-            .social-media {
-                color: white;
-                font-size: 1vw;
-                margin: 2% auto auto 64%;
-                width: 34%;
-                font-family: sans-serif;
-            }
-            
-            .social-media img {
-                display: flexbox;
-                width: 12%;
-                margin-left: 4%;
-            }
-            
-            .footer-rights {
-                color: white;
-                font-family: sans-serif;
-                font-size: 1vw;
-                text-align: center;
-                margin-top: 5%;
-                padding-bottom: 0.1%;
-            }
-            
-            .footer-rights span {
-                font-weight: bolder;
-                font-size: 1.2vw;
+                body {
+                    margin: 0;
+                    padding: 0;
+                    min-height: 100%;
+                    background-color: azure;
+                }
+                
+                .logo-container {
+                    margin: 0;
+                }
+                
+                .logo {
+                    background-color: aqua;
+                    left: 1%;
+                    width: 8%;
+                    border-radius: 50%;
+                    position: absolute;
+                }
+                
+                .logo-text {
+                    top: -1%;
+                    left: 10%;
+                    position: absolute;
+                }
+                
+                .nav li {
+                    display: inline;
+                }
+                
+                .nav a {
+                    display: inline-block;
+                    padding: 0.5em;
+                    color: black;
+                    text-decoration: none;
+                }
+                
+                .main-nav {
+                    text-align: center;
+                    font-size: 1.1em;
+                    font-weight: lighter;
+                    /* border-bottom: 1px solid rgba(255, 255, 255, .3) */
+                }
+                
+                .main-nav li {
+                    padding: 0 4%;
+                }
+                
+                .nav a:hover {
+                    color: white;
+                    background-color: rgb(56, 52, 140);
+                }
+                
+                .main-header {
+                    padding-bottom: 1%;
+                    padding-top: 1%;
+                }
+                /* -----body ---------- */
+                
+                .head-container {
+                    text-align: center;
+                    width: 100%;
+                    background-image: url(/images/body.jpg);
+                }
+                
+                .Mission-container {
+                    text-align: center;
+                    border: 2px solid black;
+                    width: 50%;
+                    height: 350px;
+                    background-image: url(/images/body2.jpg);
+                    background-size: contain;
+                    font-weight: bold;
+                    color: white;
+                    opacity: .8;
+                }
+                
+                h4 {
+                    text-align: left;
+                }
+                
+                .trip {
+                    border: 3px solid black;
+                    height: 200px;
+                    width: 450px;
+                    background-image: url(/images/h2.jpg);
+                    background-size: cover;
+                    margin-left: 35%;
+                }
+                
+                .departure {
+                    margin-bottom: 40px;
+                }
+                
+                .return {
+                    margin-bottom: 40px;
+                }
+                
+                .book {
+                    color: white;
+                    background-color: red;
+                    padding: 10px 20px;
+                    text-align: center;
+                    font-size: 10px;
+                    cursor: pointer;
+                }
+                
+                .trip-container {
+                    background-image: url(/Images/views2.jpg);
+                    height: 450px;
+                    /* background-position: center; */
+                    background-size: contain;
+                }
+                
+                .modal {
+                    display: none;
+                    position: fixed;
+                    z-index: 1;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    overflow: hidden;
+                    background-color: rgba(0, 0, 0, 0.6);
+                    align-self: auto;
+                }
+                
+                .modal-content {
+                    background-image: url(/Images/view3.jpg);
+                    width: 80%;
+                    height: 60%;
+                    background-size: contain;
+                    margin: auto auto;
+                    border: 3px solid black;
+                }
+                
+                .book2 {
+                    color: white;
+                    background-color: red;
+                    padding: 10px 20px;
+                    text-align: center;
+                    font-size: 10px;
+                    cursor: pointer;
+                }
+                
+                .close1 {
+                    float: right;
+                    text-decoration: none;
+                    background-color: white;
+                    padding: 2px;
+                    border: 2px solid gray;
+                }
+                /* ---------footer-------------- */
+                
+                .container-footer {
+                    background-color: rgba(13, 7, 55, 0.94);
+                    width: 100%;
+                    margin-top: 5%;
+                }
+                
+                .container-footer hr {
+                    height: 3px;
+                    background-color: white;
+                    border: none;
+                    margin: 2% 5% auto 5%;
+                }
+                
+                .sub-footer {
+                    width: 100%;
+                    height: 30%;
+                    display: inline-flex;
+                    padding-top: 2%;
+                    padding-bottom: 2%;
+                }
+                
+                .footer {
+                    font-family: sans-serif;
+                    font-size: 1vW;
+                    color: white;
+                    text-align: center;
+                    width: 15%;
+                    margin: auto auto auto 5%;
+                }
+                
+                .social-media {
+                    color: white;
+                    font-size: 1vw;
+                    margin: 2% auto auto 64%;
+                    width: 34%;
+                    font-family: sans-serif;
+                }
+                
+                .social-media img {
+                    display: flexbox;
+                    width: 12%;
+                    margin-left: 4%;
+                }
+                
+                .footer-rights {
+                    color: white;
+                    font-family: sans-serif;
+                    font-size: 1vw;
+                    text-align: center;
+                    margin-top: 5%;
+                    padding-bottom: 0.1%;
+                }
+                
+                .footer-rights span {
+                    font-weight: bolder;
+                    font-size: 1.2vw;
+                }
