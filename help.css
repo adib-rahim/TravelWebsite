@@ -1,15 +1,15 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  outline: none;
-  font-family: 'Roboto', sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
   background: url('Images/help.jpg') no-repeat top center;
   background-size: cover;
-  height: 100vh;
+  height: 40vh;
 }
 
 .wrapper{
@@ -19,47 +19,73 @@ body{
   transform: translate(-50%, -50%);
   width: 100%;
   max-width: 550px;
-  background: rgba(0,0,0,0.8);
+  background: whitesmoke;
   padding: 30px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
 .wrapper .title h1{
-  color: #c5ecfd;
+  color:lightskyblue;
   text-align: center;
   margin-bottom: 25px;
+body {
+    background: url('Images/help.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
 }
 
-.contact-form{
-  display: flex;
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 550px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.input-fields{
-  display: flex;
-  flex-direction: column;
-  margin-right: 4%;
+.wrapper .title h1 {
+    color: #c5ecfd;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.contact-form {
+    display: flex;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
 }
 
 .input-fields,
-.msg{
-  width: 48%;
+.msg {
+    width: 48%;
 }
 
 .input-fields .input,
-.msg textarea{
-  margin: 10px 0;
-  background: transparent;
-  border: 0px;
-  border-bottom: 2px solid #c5ecfd;
-  padding: 10px;
-  color: #c5ecfd;
-  width: 100%;
+.msg textarea {
+    margin: 10px 0;
+    background: transparent;
+    border: 0px;
+    border-bottom: 2px solid lightskyblue;
+    padding: 10px;
+    color: lightskyblue;
+    width: 100%;
 }
 
-.msg textarea{
-  height: 212px;
+.msg textarea {
+    height: 212px;
 }
+
 .btn {
     background: #39b7dd;
     text-align: center;
@@ -70,15 +96,15 @@ body{
     text-transform: uppercase;
 }
 
-@media screen and (max-width: 600px){
-  .contact-form{
-    flex-direction: column;
-  }
-  .msg textarea{
-    height: 80px;
-  }
-  .input-fields,
-  .msg{
-    width: 100%;
-  }
+@media screen and (max-width: 600px) {
+    .contact-form {
+        flex-direction: column;
+    }
+    .msg textarea {
+        height: 80px;
+    }
+    .input-fields,
+    .msg {
+        width: 100%;
+    }
 }
