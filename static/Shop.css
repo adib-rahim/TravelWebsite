@@ -64,7 +64,7 @@ body {
 .head-container {
     text-align: center;
     width: 100%;
-    background-image: url(/images/body.jpg);
+    background-image: url(../images/body.jpg);
 }
 
 .Mission-container {
@@ -72,7 +72,7 @@ body {
     border: 2px solid black;
     width: 50%;
     height: 350px;
-    background-image: url(/images/body2.jpg);
+    background-image: url(../images/body2.jpg);
     background-size: contain;
     font-weight: bold;
     color: white;
@@ -87,7 +87,7 @@ h4 {
     border: 3px solid black;
     height: 200px;
     width: 450px;
-    background-image: url(/images/h2.jpg);
+    background-image: url(../images/h2.jpg);
     background-size: cover;
     margin-left: 35%;
 }
@@ -110,7 +110,7 @@ h4 {
 }
 
 .trip-container {
-    background-image: url(/Images/views2.jpg);
+    background-image: url(../Images/views2.jpg);
     height: 450px;
     /* background-position: center; */
     background-size: contain;
@@ -130,7 +130,7 @@ h4 {
 }
 
 .modal-content {
-    background-image: url(/Images/view3.jpg);
+    background-image: url(../Images/view3.jpg);
     width: 80%;
     height: 60%;
     background-size: contain;

@@ -8,6 +8,6 @@ body {
 .background {
     width: 100%;
     height: 100vh;
-    background: url('/Images/bluee.jpg') no-repeat top center;
+    background: url('../Images/bluee.jpg') no-repeat top center;
     background-size: cover;
 }

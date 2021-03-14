@@ -101,35 +101,35 @@ body {
 }
 
 .img1 {
-    background-image: url("/Images/cancun.jpg");
+    background-image: url("../Images/cancun.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .img2 {
-    background-image: url("/Images/Grece.jpeg");
+    background-image: url("../Images/Grece.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .img3 {
-    background-image: url("/Images/h2.jpg");
+    background-image: url("../Images/h2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .img4 {
-    background-image: url("/Images/Grece.jpeg");
+    background-image: url("../Images/Grece.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .img5 {
-    background-image: url("/Images/cancun.jpg");
+    background-image: url("../Images/cancun.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
