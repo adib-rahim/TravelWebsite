@@ -1,31 +1,35 @@
-function validate(){
-    var name = document.getElementById("name").value;
-    var subject = document.getElementById("subject").value;
-    var phone = document.getElementById("phone").value;
-    var email = document.getElementById("email").value;
-    var message = document.getElementById("message").value;
-    var text;
-    if(name.length < 10){
+function validation(){
+  let message = document.getElementById("message").value;
+  let email = document.getElementById("email").value;
+  let phone = document.getElementById("phone").value;
+  let subject = document.getElementById("subject").value;
+  let name = document.getElementById("name").value;
+    
+    if(name.length < 5){
       alert ("Please enter a valid Full Name");
      
       return false;
     }
-    if(subject.length < 10){
-      alert ("Please enter a Correct Subject containing at LEAST 10 characters");
+    if(subject.length < 4){
+      alert ("Please enter a Correct Subject containing at LEAST 4 characters");
       return false;
     }
-    if(isNaN(phone) || phone.length != 9){
+    if(phone.length != 9){
       alert ("Please enter a valid Phone Number containing 9 digits");
       return false;
     }
-    if(message.length <= 100){
-      alert("Please enter more than 100 characters for the message.");
+    if(message.length <= 50){
+      alert("Please enter at least 50 characters for the message.");
       return false;
     }
     if(document.form.submit()) {
     alert("Form Submitted Successfully!");
     return true;
+      else{
+        return false;
+      }
     }
-    return false;
+
+   
   }
 
