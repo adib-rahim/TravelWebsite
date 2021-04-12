@@ -25,9 +25,24 @@ class Data(db.Model):
         self.textArea_ = textArea_
 
 
-@app.route("/")
+@app.route('/')
+def rout():
+    return render_template("help.html")
+
+
+@app.route('/help')
 def help():
     return render_template("help.html")
+
+
+@app.route('/main')
+def main():
+    return render_template("index.html")
+
+
+@app.route('/ShopFlights')
+def ShopFlights():
+    return render_template("ShopFlights.html")
 
 
 @app.route("/index", methods=['POST'])

@@ -20,9 +20,9 @@
         </div>
         <nav class="nav main-nav">
             <ul>
-                <li><a href="../templates/index.html">HOME</a></li>
-                <li><a href="../templates/ShopFlights.html">Shop Flights</a></li>
-                <li><a href="../templates/help.html">Need Help?</a></li>
+                <li><a href="{{ url_for('main') }}">HOME</a></li>
+                <li><a href="{{ url_for('ShopFlights') }}">Shop Flights</a></li>
+                <li><a href="{{ url_for('help') }}">Need Help?</a></li>
             </ul>
         </nav>
     </header>
